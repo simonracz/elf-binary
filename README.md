@@ -18,6 +18,14 @@ chmod a+x ./bin
 ./bin
 ```
 
+# Useful Commands
+```
+readelf -h ./bin
+readelf -l ./bin
+hexdump -C ./bin
+cat /proc/[pid]/maps
+```
+
 # Links
 ```
 man 5 elf
