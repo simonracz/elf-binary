@@ -1,7 +1,7 @@
 # elf-binary
 Code created during recording the [Writing a Linux ELF Binary by Hand](https://youtu.be/JM9jX2aqkog) video.
 
-We write a 164 bytes long 64 bit ELF binary. A proper hello world executable.
+We write a 164 bytes long x86-64 ELF binary. A proper hello world executable.
 
 # Requirements
 Just a C compiler.
