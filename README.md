@@ -29,6 +29,8 @@ cat /proc/[pid]/maps
 # Links
 ```
 man 5 elf
+man 2 write
+man 2 exit
 ```
 [man 5 elf](https://www.man7.org/linux/man-pages/man5/elf.5.html)
 
