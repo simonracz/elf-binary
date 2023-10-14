@@ -1,5 +1,5 @@
 # elf-binary
-Code created during recording the Writing a Linux ELF binary by hand video.
+Code created during recording the [Writing a Linux ELF Binary by Hand](https://youtu.be/JM9jX2aqkog) video.
 
 We write a 164 bytes long 64 bit ELF binary. A proper hello world executable.
 
