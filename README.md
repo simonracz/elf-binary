@@ -12,6 +12,7 @@ gcc -std=c17 -o main ./main.c
 gcc -std=c17 -static -o main ./main.c
 nasm -felf64 -o hello_asm.o ./hello_asm.asm
 ld -o hello_asm ./hello_asm.o
+objdump -d -M intel ./hello_asm
 gcc -std=c17 -o elf ./elf.c
 ./elf
 chmod a+x ./bin
