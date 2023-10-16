@@ -57,7 +57,7 @@ int main(int argc, char* argv[]) {
         0xf, 0x5, // syscall
         0xb8, // mov rax (32 bit)
         0x3c, 0, 0, 0, // 60 = exit syscall
-        0x48, 0x31, 0xff, // xor rdx, rdx
+        0x48, 0x31, 0xff, // xor rdi, rdi
         0xf, 0x5 // syscall
     };
     
