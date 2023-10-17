@@ -27,13 +27,17 @@ hexdump -C ./bin
 cat /proc/[pid]/maps
 ```
 
-# Links
+# Documentation
 ```
 man 5 elf
 man 2 write
 man 2 exit
 ```
-[man 5 elf](https://www.man7.org/linux/man-pages/man5/elf.5.html)
 
+# Links
 
-[Intel Manuals](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html)
+Online man page: [man 5 elf](https://www.man7.org/linux/man-pages/man5/elf.5.html)
+
+To Download the Intel Manuals: [Intel Manuals](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html)
+
+Linux Kernel's program loader code: https://github.com/torvalds/linux/blob/master/fs/binfmt_elf.c
